@@ -1,0 +1,239 @@
+  .hero {
+      padding: 60px 0;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+    
+     .highlight {
+      color: #ff6347;
+      font-size: larger;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .hero a {
+      color: #ff6347;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    
+    .hero-img {
+      border-radius: 1%;
+      max-width: 100%;
+      height: 500px;
+      border: 0px ;
+      margin-top: 70px;
+    }
+    .social-icons a {
+      color: #888;
+      margin-right: 15px;
+      font-size: 1.3rem;
+    }
+
+    
+    
+    .hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 3.5s;
+	animation: flash 3.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+.service-box {
+      border: 2px solid #3ac7f2; /* Bright accent border */
+      border-radius: 1px;
+      padding: 25px;
+      color: #f0f8ff; /* Light, soft white-blue text */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Slight shadow */
+      transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    }
+
+    .service-box:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(52, 20, 183, 0.3);
+    }
+.service-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .service-icon img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .service-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .service-text {
+      font-size: 14px;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+
+
+
+
+
+    .body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container1 {
+  text-align: center;
+}
+
+.button-creative {
+  position: relative;
+  display: inline-block;
+  padding: 1em 2em;
+  background: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.3s;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.button-creative::before {
+  content: '';
+  position: absolute;
+  left: var(--x, 50%);
+  top: var(--y, 50%);
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, #003cff 10%, transparent 70%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.4s ease;
+  border-radius: 50%;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.button-creative:hover::before {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.button-creative:hover {
+  color: #b9baba;
+}
+
+.dark{
+background-color: #000;
+}
+
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+ .info-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .info-box i {
+      font-size: 20px;
+      color: white;
+      background: #222;
+      /* padding: 15px; */
+      border-radius: 15px;
+      margin-right: 15px;
+     
+      
+    }
+
+    .contact-form {
+     background: linear-gradient(135deg, #4cbbe3, #49d1e6);
+     background-size: 300% 300%;
+     animation: contactFormFloat 15s ease-in-out infinite;
+      
+     /* padding: 30px; */
+     /* border-radius: 5%; */
+     box-shadow: 0 0 20px rgba(21, 164, 189, 0.2);
+    }
+
+
+
+    .button-creative2 {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.3s;
+  font-size: 1rem;
+  border:2px #fff;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.button-creative2::before {
+  content: '';
+  position: absolute;
+  left: var(--x, 50%);
+  top: var(--y, 50%);
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, #000dff 10%, transparent 70%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.4s ease;
+  border-radius: 50%;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.button-creative2:hover::before {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.button-creative2:hover {
+  color: #b9baba;
+}
